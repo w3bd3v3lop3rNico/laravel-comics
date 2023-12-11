@@ -1,9 +1,19 @@
-<h1>
-    Header
-    @yield('header')
-</h1>
-@yield('content')
-<h1>
-    Footer
-    @yield('footer')
-</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@yield('title-head')</title>
+</head>
+<body>
+    <header>
+        <div class="container"><h1>Header</h1></div>
+    </header>
+    <main>
+        <div class="container">@yield('main')</div>
+    </main>
+    <footer>
+        <div class="container">footer</div>
+    </footer>
+</body>
+</html>
