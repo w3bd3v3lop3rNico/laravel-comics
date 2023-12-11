@@ -1,0 +1,9 @@
+<h1>
+    Header
+    @yield('header')
+</h1>
+@yield('content')
+<h1>
+    Footer
+    @yield('footer')
+</h1>
