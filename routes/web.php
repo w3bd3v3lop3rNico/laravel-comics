@@ -126,5 +126,5 @@ Route::get('/', function () {
         ]
     ];
 
-    return view('welcome', $comics);
+    return view('welcome', compact('comics'));
 });
