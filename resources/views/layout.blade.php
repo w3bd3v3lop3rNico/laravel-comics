@@ -8,13 +8,13 @@
 </head>
 <body>
     <header>
-        <div class="container"><h1>Header</h1></div>
+        @include('header')
     </header>
     <main>
-        <div class="container">@yield('main')</div>
+        <div>@yield('main')</div>
     </main>
     <footer>
-        <div class="container">footer</div>
+        @include('footer')
     </footer>
 </body>
 </html>

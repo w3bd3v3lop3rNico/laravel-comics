@@ -8,7 +8,7 @@
     <section class="hero">
         <img src="{{ Vite::asset('resources/img/jumbotron.jpg') }}" alt="">
     </section>
-    <div class="series">
+    <div class="series container">
         <h1>Current Series</h1>
         <div class="grid">
             <div class="row row-cols-6">
